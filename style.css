@@ -264,11 +264,10 @@ ul > li > ol > li {
 	min-width: 900px;
 }
 
-div.box1{
+div.box{
 	width: 24.750%;
 	height:200px;
 	float:left;
-	background-image: url('img_box/jeden.png');
 	background-position:center;
 	z-index: -1;
 }
@@ -277,7 +276,7 @@ div.box1{
 	z-index: 0;
 	background: rgba(255, 255, 255, .0);
 	display: block;
-	width: 100%;
+	width: 24.750%;
 	height: 200px;
 	position: absolute;
 
@@ -297,66 +296,6 @@ div.box1{
 	width: 100%;
 	position: relative;
 	display: block;
-}
-
-div.box2{
-	width: 24.750%;
-	height:200px;
-	float:left;
-	background-image: url('img_box/dwa.jpg');
-	background-position:center;
-}
-
-div.box2:hover{
-	width: 24.750%;
-	height:200px;
-	float:left;
-	background-image: url('img_box/dwa.jpg');
-	background-position:center;
-	-webkit-animation-name: ruch; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    animation-name: ruch;
-    animation-duration: 2s;
-}
-
-div.box3{
-	width: 24.750%;
-	height:200px;
-	float:left;
-	background-image: url('img_box/trzy.jpg');
-	background-position:center;
-}
-
-div.box3:hover{
-	width: 24.750%;
-	height:200px;
-	float:left;
-	background-image: url('img_box/trzy.jpg');
-	background-position:center;
-	-webkit-animation-name: ruch; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    animation-name: ruch;
-    animation-duration: 2s;
-}
-
-div.box4{
-	width: 24.750%;
-	height:200px;
-	float:left;
-	background-image: url('img_box/cztery.jpg');
-	background-position:center;
-}
-
-div.box4:hover{
-	width: 24.750%;
-	height:200px;
-	float:left;
-	background-image: url('img_box/cztery.jpg');
-	background-position:center;
-	-webkit-animation-name: ruch; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    animation-name: ruch;
-    animation-duration: 2s;
 }
 
 div.separate{
