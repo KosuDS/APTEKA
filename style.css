@@ -6,7 +6,7 @@
 @-webkit-keyframes ruch { 
     0% { 
         background: rgba(255, 255, 255, .0);
-		text-shadow: 0px 0px 10px  black;
+		text-shadow: 0px 0px 0px  black;
 		opacity: 0;
     } 
     100% { 
@@ -18,7 +18,7 @@
 @keyframes ruch { 
     0% { 
         background: rgba(255, 255, 255, .0);
-		text-shadow: 0px 0px 10px  black;
+		text-shadow: 0px 0px 0px  black;
 		opacity: 0;
     } 
     100% { 
@@ -179,16 +179,12 @@ ul > li :hover + ol > li > div.lista_aktywna {
 	display:block;
 	color:#606060;
 	font-weight:bold;
-	-webkit-animation-name: wysuwanie; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
 }
 
 ul > li :hover + ol > li > div.lista_aktywna_lupka {
 	display:block;
 	color:#606060;
 	font-weight:bold;
-	-webkit-animation-name: wysuwanie_lupka; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
 }
 
 
